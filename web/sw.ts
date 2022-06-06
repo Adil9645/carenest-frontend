@@ -75,8 +75,12 @@ setDefaultHandler(new StaleWhileRevalidate({}));
 // generate a response.
 setCatchHandler(async (options) => 
 {
+
+
+
     const fallbacks: { [key: string]: string; } = {
         document: "/offline.html",
+        // @ts-ignore
         image: noNetworkImage,
         font: defaultFont,
     };
