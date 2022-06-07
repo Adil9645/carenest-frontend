@@ -11,6 +11,7 @@ export const App = ({wb}: { wb: Workbox; }) =>
     return (
         <>
             <HandleAppState wb={wb}/>
+
             <Home/>
             <SimpleBottomNavigation/>
 

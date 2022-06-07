@@ -6,11 +6,9 @@ import Grid from "@mui/material/Grid";
 // import {Theme} from "@material-ui/styles";
 
 const Item = styled(Paper)(( theme:any ) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
+    backgroundColor:  "#fff",
     textAlign: "center",
-    color: theme.palette.text.secondary,
+
 }));
 
 export default function BasicGrid() 
