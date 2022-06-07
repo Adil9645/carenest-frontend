@@ -1,24 +1,23 @@
 import * as React from "react";
-import { styled } from "@mui/material/styles";
+import {styled} from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 // import {Theme} from "@material-ui/styles";
 
-const Item = styled(Paper)(( theme:any ) => ({
-    backgroundColor:  "#fff",
+const Item = styled(Paper)(() => ({
+    backgroundColor: "#fff",
     textAlign: "center",
 
 }));
 
-export default function BasicGrid() 
-{
+export default function BasicGrid() {
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <Box sx={{flexGrow: 1}}>
             <Grid container spacing={3}>
                 <Grid item xs={4}>
                     <Item> Book
-Doctor
+                        Doctor
                     </Item>
                 </Grid>
                 <Grid item xs={4}>
@@ -29,11 +28,11 @@ Doctor
                 </Grid>
                 <Grid item xs={4}>
                     <Item>Find Test
-Results</Item>
+                        Results</Item>
                 </Grid>
                 <Grid item xs={4}>
                     <Item>Medical
-History</Item>
+                        History</Item>
                 </Grid>
                 <Grid item xs={4}>
                     <Item>Verify doctor search
@@ -41,15 +40,15 @@ History</Item>
                 </Grid>
                 <Grid item xs={4}>
                     <Item>Find Home
-Nurses</Item>
+                        Nurses</Item>
                 </Grid>
                 <Grid item xs={4}>
                     <Item>Blood
-Donation</Item>
+                        Donation</Item>
                 </Grid>
                 <Grid item xs={4}>
                     <Item>Physical
-Therapy</Item>
+                        Therapy</Item>
                 </Grid>
             </Grid>
         </Box>
