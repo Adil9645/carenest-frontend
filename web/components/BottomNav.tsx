@@ -5,6 +5,10 @@ import BottomNavigationAction from "@mui/material/BottomNavigationAction";
 import RestoreIcon from "@mui/icons-material/Restore";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import HomeIcon from '@mui/icons-material/Home';
+import SearchIcon from '@mui/icons-material/Search';
+import BookOnlineIcon from '@mui/icons-material/BookOnline';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 
 
@@ -22,10 +26,11 @@ export default function SimpleBottomNavigation()
                     setValue(newValue);
                 }}
             >
-                <BottomNavigationAction label="Home" icon={<RestoreIcon />} />
-                <BottomNavigationAction label="Search" icon={<RestoreIcon />} />
-                <BottomNavigationAction label="Appontments" icon={<FavoriteIcon />} />
-                <BottomNavigationAction label="Profile" icon={<LocationOnIcon />} />
+                <BottomNavigationAction label="Home" icon={<HomeIcon />} />
+                <BottomNavigationAction label="Search" icon={<SearchIcon />} />
+                <BottomNavigationAction label="Appointments" icon={<BookOnlineIcon />} />
+                <BottomNavigationAction label="Profile" icon={<AccountCircleIcon />} />
+
             </BottomNavigation>
         </Box>
     );
