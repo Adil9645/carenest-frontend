@@ -10,24 +10,22 @@ import {
 } from "react-router-dom";
 import {Search} from "../pages/Search/Search";
 import {Appointments} from "../pages/Appoinments/Appointments";
-import {Profile} from "../pages/Home/Profile";
-Search
-Appointments
-Profile
+import {Profile} from "../pages/Profile/Profile";
+import {Pharmacy1} from "../pages/Pharmacy/Pharmacy1";
+import {Pharmacy2} from "../pages/Pharmacy/Pharmacy2";
+import {Findhomenurse} from "../pages/FindHomeNurse/Findhomenurse";
+import {Medicalhistory} from "../pages/MedicalHistory/Medicalhistory";
+import Floatingbutton from "../components/floatingbutton";
+
+
 
 export const App = ({wb}: { wb: Workbox; }) => {
     return (
         <>
             {/*<HandleAppState wb={wb}/>*/}
             <Router>
-
                 <Routes>
-                    <Route path='/Profile' element={<div><Profile/><SimpleBottomNavigation/></div>}/>
-
-
-                    <Route path='/' element={<div><Appointments/><SimpleBottomNavigation/></div>}/>
-
-
+                    <Route path='/' element={<div><Pharmacy2/><SimpleBottomNavigation/></div>}/>
                 </Routes>
             </Router>
 
