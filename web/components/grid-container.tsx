@@ -44,7 +44,7 @@ export default function BasicGrid() {
                 </Grid>
                 <Grid item xs={4}>
                     <Item>Blood
-                        Donation</Item>
+                        Donation nearby</Item>
                 </Grid>
                 <Grid item xs={4}>
                     <Item>Physical

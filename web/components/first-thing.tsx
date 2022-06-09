@@ -14,7 +14,7 @@ export default function MultiActionAreaCard()
                     component="img"
                     height="200"
                     image="web/assets/images/chatbots.png"
-                    alt="green iguana"
+                    alt="chatbot"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
