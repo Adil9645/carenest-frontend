@@ -2,10 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
-interface SearchProps{
-    label: string;
-}
-export default function Searchme(props:SearchProps) {
+export default function BasicTextFields() {
   return (
     <Box
       component="form"
@@ -15,7 +12,7 @@ export default function Searchme(props:SearchProps) {
       noValidate
       autoComplete="off"
     >
-      <TextField id="outlined-basic" label={props.label} variant="outlined" />
+      <TextField id="outlined-basic" label="Find Doctors" variant="outlined" />
 
     </Box>
   );

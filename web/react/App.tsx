@@ -16,6 +16,9 @@ import {Pharmacy2} from "../pages/Pharmacy/Pharmacy2";
 import {Findhomenurse} from "../pages/FindHomeNurse/Findhomenurse";
 import {Medicalhistory} from "../pages/MedicalHistory/Medicalhistory";
 import Floatingbutton from "../components/floatingbutton";
+import {Findhospitals} from "../pages/Findhospitals/Findhospitals";
+import {Labresults} from "../pages/Labresults/Labresults";
+
 
 
 
@@ -25,7 +28,7 @@ export const App = ({wb}: { wb: Workbox; }) => {
             {/*<HandleAppState wb={wb}/>*/}
             <Router>
                 <Routes>
-                    <Route path='/' element={<div><Pharmacy2/><SimpleBottomNavigation/></div>}/>
+                    <Route path='/' element={<div><Labresults/><SimpleBottomNavigation/></div>}/>
                 </Routes>
             </Router>
 
